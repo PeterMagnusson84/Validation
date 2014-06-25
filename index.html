@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="sv">
+    <head>
+
+        <title>Validering</title>
+        <meta charset="utf-8" /> 
+
+  
+  
+  <link rel="Stylesheet" href="css/style.css" />
+  
+    </head>
+        <body>  
+       <div id="container">
+		<form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbteknik/process_form.php" method="post" id="form">
+			<fieldset id="fieldset">
+				<legend>Validering</legend>
+				<p class="info">Förnamn:</p> 
+				<p id="fn"><input type="text" name="Firstname" id="firstName" class="input" /></p>
+				<p class="info">Efternamn: </p>
+				<p id="ln"><input type="text" name="Lastname" id="lastName" class="input" /></p>
+				<p class="info">Postnummer:</p> 
+				<p id="zc"><input type="text" name="Zipcode" id="zipCode" class="input" /></p>
+				<p class="info">Telfonnummer:</p>
+				<p id="pn"><input type="text" name="Phone" id="phoneNumber" class="input" /></p>
+				<p class="info">E-post:</p>
+				<p id="em"><input type="text" name="Mail" id="eMail" class="input" /></p>
+				<p class="info">Kön:</p>
+				<p><select name="gender" id="gender" class="option">
+					<option value="Man">Man</option>
+					<option value="Kvinna">Kvinna</option>
+				</select></p>
+				<input type="submit" value="Skicka" id="button" />
+			</fieldset>
+		</form>
+	</div>
+		
+   
+               <script src="javascript/validation.js" type="text/javascript"></script>
+               
+               
+        </body>
+</html>
